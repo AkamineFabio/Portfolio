@@ -1,0 +1,53 @@
+
+/* FORBRAIN STYLES */
+
+.forbrain__container{
+    flex-direction: column;
+}
+
+.forbrain__text-container{
+    max-width: 100%;
+    padding: 2rem 0;
+}
+
+.forbrain__text-container > *{
+    margin-top: 1.5rem;
+}
+
+.forbrain__icon{
+    width: 5rem;
+    border-radius: 50%;
+    background-color: var(--purple);
+}
+
+.forbrain__title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .5rem;
+}
+
+.forbrain__text-normal , .forbrain__text-bold{
+    line-height: 1.75;
+}
+
+.forbrain__text-bold{
+    font-weight: 700;
+}
+
+
+@media(min-width:840px){
+    .forbrain__container{
+        flex-direction: row;
+        justify-content: center;
+        padding: 3rem 0;
+        gap: 5%;
+    }
+    
+    
+    .forbrain__img{
+        width: 45%;
+        max-width: 100%;
+        object-position: center;
+    }
+}

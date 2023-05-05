@@ -1,0 +1,188 @@
+@import url(header.css);
+@import url(main.css);
+@import url(benefits.css);
+@import url(technology.css);
+@import url(benefits2.css);
+@import url(forbrain.css);
+@import url(vrheadsets.css);
+@import url(keys.css);
+@import url(follow.css);
+
+:root{
+    --purple: #654AFF; 
+    --black: #070707;
+    --black-transparent:#070707f3;
+    --blue-link:#6DB2E4;
+    --grey:#9b9b9b;
+    --grey-lighter:#E5E5E5;
+    --grey-darker:#333333;
+    --grey-darker-transparent:#333333f3;
+    --white: #fafafa;
+    --white-darker: #F0EDFF;
+    --font-Raleway:'Raleway', sans-serif;
+    --font-Montserrat:'Montserrat', sans-serif;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-Raleway);
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.seemore__button{
+    display: inline-block;
+    border: 2px solid var(--purple);
+    padding: 1rem 1.75rem;
+    font-weight: 500;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.seemore__button:hover{
+    border-color: var(--grey);
+}
+
+.footer{
+    background-color: var(--grey-darker);
+}
+
+.footer__container{
+    padding: 3rem 0;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+
+.footer__container p:first-child{
+    justify-self: flex-start;
+}
+
+.footer__container p:last-child{
+    margin-top: 3rem;
+    justify-self: flex-end;
+}
+
+.footer__container p a{
+    color: var(--blue-link);
+}
+
+.hidden{
+    display: none;
+}
+
+.menu{
+    position: fixed;
+    top: 5vh;
+    max-width: 100vw;
+    height: 95vh;
+    z-index: 1;
+}
+
+.menu-side{
+    width: 50vw;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--black-transparent);
+    gap:1rem;
+}
+
+.menu-closebtn{
+    width: 3rem;
+    height: 3rem;
+    align-self: flex-end;
+}
+
+.menu-side a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.menu-side a:hover{
+    color: var(--grey);
+    cursor: pointer;
+}
+
+.menu-closebtn:hover{
+    color: var(--grey);
+    cursor: pointer;
+}
+
+.menu__close{
+    width: 50vw;
+    background-color: var(--grey-darker-transparent);
+}
+
+@media(min-width:500px){
+    .menu-side{
+        width: 40vw;
+    }
+
+    .menu-closebtn{
+        width: 2.5rem;
+        height: 2.5rem;
+        align-self: flex-end;
+    }
+
+    .menu__close{
+        width: 60vw;
+    }
+}
+
+@media(min-width:800px){
+    .menu-side{
+        width: 30vw;
+    }
+
+    .menu-closebtn{
+        width: 2.5rem;
+        height: 2.5rem;
+        align-self: flex-end;
+    }
+
+    .menu__close{
+        width: 70vw;
+    }
+}
+
+@media(min-width:1200px){
+    .menu-side{
+        width: 20vw;
+    }
+
+    .menu-side img{
+        width: 2.5rem;
+        height: 2.5rem;
+        align-self: flex-end;
+    }
+
+    .menu__close{
+        width: 80vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

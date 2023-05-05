@@ -1,0 +1,204 @@
+
+/* VRHEADSETS STYLES */
+
+.vrheadsets{
+    background-image: url(images/man-using-vr2-small.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right -9rem top -4rem;
+    height: 70vh;
+    overflow: visible;
+    margin: 2rem 0;
+}
+
+.vrheadsets__text-container{
+    background-color: var(--white);
+    padding: 3rem 1.5rem;
+    width: 80%;
+    align-self:flex-end;
+    margin-bottom: 3rem;
+}
+
+.vrheadsets__text-container > *{
+    margin-top: 1.5rem;
+}
+
+.vrheadsets__text-purple, .vrheadsets__title, .vrheadsets__text{
+    letter-spacing: .125rem;
+}
+
+.vrheadsets__text-purple{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--purple);
+}
+
+.vrheadsets__title{
+    font-weight: 500;
+    line-height: 1.125;
+    font-size: 1.5rem;
+    color: var(--purple);
+}
+
+@media(min-width:550px){
+    .vrheadsets{
+        background-image: url(images/man-using-vr2-small.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: right -9rem top -4rem;
+        height: 70vh;
+        overflow: visible;
+        margin: 2rem 0;
+    }
+
+    
+    .vrheadsets__text-container{
+        background-color: var(--white);
+        padding: 3rem 1.5rem;
+        width: 75%;
+        align-self: center;
+        margin-bottom: 0;
+    }
+    
+    .vrheadsets__text-container > *{
+        margin-top: 1.5rem;
+    }
+    
+    .vrheadsets__text-purple, .vrheadsets__title, .vrheadsets__text{
+        letter-spacing: .125rem;
+    }
+    
+    .vrheadsets__text-purple{
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--purple);
+    }
+    
+    .vrheadsets__title{
+        font-weight: 500;
+        line-height: 1.125;
+        font-size: 1.5rem;
+        color: var(--purple);
+    }
+}
+
+@media(min-width:550px){
+    .vrheadsets{
+        background-image: url(images/man-using-vr2-small.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: right -9rem top -4rem;
+        height: 70vh;
+        overflow: visible;
+        margin: 2rem 0;
+    }
+
+    
+    .vrheadsets__text-container{
+        background-color: var(--white);
+        padding: 3rem 1.5rem;
+        width: 60%;
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+    
+    .vrheadsets__text-container > *{
+        margin-top: 1.5rem;
+    }
+    
+    .vrheadsets__text-purple, .vrheadsets__title, .vrheadsets__text{
+        letter-spacing: .125rem;
+    }
+    
+    .vrheadsets__text-purple{
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--purple);
+    }
+    
+    .vrheadsets__title{
+        font-weight: 500;
+        line-height: 1.125;
+        font-size: 1.5rem;
+        color: var(--purple);
+    }
+}
+
+
+@media(min-width:840px){
+    .vrheadsets{
+        background-image: url(images/man-using-vr2-small.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: right;
+        height: 70vh;
+    }
+    
+    .vrheadsets__text-container{
+        background-color: var(--white);
+        padding: 3rem 1.5rem;
+        width: 45%;
+        align-self: center;
+        margin-bottom: 0;
+    }
+    
+    .vrheadsets__text-container > *{
+        margin-top: 1.5rem;
+    }
+    
+    .vrheadsets__text-purple, .vrheadsets__title, .vrheadsets__text{
+        letter-spacing: .125rem;
+    }
+    
+    .vrheadsets__text-purple{
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--purple);
+    }
+    
+    .vrheadsets__title{
+        font-weight: 500;
+        line-height: 1.125;
+        font-size: 2.5rem;
+        color: var(--purple);
+    }
+}
+
+@media(min-width:1000px){
+    .vrheadsets{
+        background-image: url(images/man-using-vr2-small.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: right;
+        height: 70vh;
+    }
+    
+    .vrheadsets__text-container{
+        background-color: var(--white);
+        padding: 3rem 1.5rem;
+        width: 45%;
+        align-self: center;
+        margin-bottom: 0;
+    }
+    
+    .vrheadsets__text-container > *{
+        margin-top: 1.5rem;
+    }
+    
+    .vrheadsets__text-purple, .vrheadsets__title, .vrheadsets__text{
+        letter-spacing: .125rem;
+    }
+    
+    .vrheadsets__text-purple{
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--purple);
+    }
+    
+    .vrheadsets__title{
+        font-weight: 500;
+        line-height: 1.125;
+        font-size: 3.5rem;
+        color: var(--purple);
+    }
+}

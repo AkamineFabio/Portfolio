@@ -1,0 +1,35 @@
+---man-using-vr
+
+Image by <a href="https://www.freepik.com/free-photo/man-with-copy-space-futuristic-device_12688370.htm#page=5&query=technology&position=6&from_view=keyword&track=sph">Freepik</a>
+
+---vr-icon
+
+<a href="https://www.flaticon.com/free-icons/vr" title="vr icons">Vr icons created by Freepik - Flaticon</a>
+
+---man-using-vr2
+
+Image by <a href="https://www.freepik.com/free-photo/man-trying-futuristic-device_12688372.htm#from_view=detail_alsolike">Freepik</a>
+
+
+---man-using-vr-raisedhand
+
+Image by <a href="https://www.freepik.com/free-photo/medium-shot-man-trying-futuristic-device_12688375.htm">Freepik</a>
+
+
+---woman-using-vr
+
+Image by <a href="https://www.freepik.com/free-photo/woman-wearing-virtual-reality-simulator_13327676.htm#page=2&position=11&from_view=collections">Freepik</a>
+
+
+
+
+---colors
+--purple: #654AFF;
+
+---font
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+font-family: 'Raleway', sans-serif;
+

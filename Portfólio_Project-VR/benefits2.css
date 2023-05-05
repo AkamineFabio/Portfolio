@@ -1,0 +1,65 @@
+
+/* BENEFITS2 STYLES */
+
+.benefits2{
+    background-color: var(--grey-lighter);
+}
+
+.benefits2__container{
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.benefits2__title{
+    font-size: 2.5rem;
+    line-height: 1.125;
+    color: var(--purple);
+}
+
+.benefits2__text{
+    line-height: 1.5;
+    padding: 1.75rem 0;
+}
+
+.benefits2__cards__container{
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.benefits2__card{
+    align-items: center;
+    background-color: var(--white);
+    padding: 1.5rem;
+}
+
+.benefits2__card h3{
+    padding: 1.5rem 0;
+    font-size: 2.5rem;
+    font-family: var(--font-Montserrat);
+    color: var(--purple);
+    align-self: flex-start;
+}
+
+.benefits2__card p{
+    text-align:left;
+    padding: 0 1rem;
+    line-height: 1.5;
+}
+
+.benefits2__card:last-of-type{
+    background-color: var(--purple);
+}
+
+.benefits2__card:last-of-type p, .benefits2__card:last-of-type h3{
+    color: var(--white);
+}
+
+
+@media(min-width:900px){
+    .benefits2__card h3{
+        font-size: 3.5rem;
+    }
+    
+}
