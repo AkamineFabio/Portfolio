@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <form id="form" action="/">
+        <h1>Fake Form</h1>
+        <div class="input__control">
+            <label for="username">Username</label>
+            <input type="text" class="input-success" id="username" name="username">
+            <div class="error"></div>
+        </div>
+        <div class="input__control">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="user-email">
+            <div class="error"></div>
+        </div>
+        <div class="input__control">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <div class="error"></div>
+        </div>
+        <div class="input__control">
+            <label for="password2">Confirm Password</label>
+            <input type="password"  id="password2" name="password2">
+            <div class="error"></div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>
