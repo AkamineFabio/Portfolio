@@ -1,0 +1,121 @@
+:root{
+    --black:#0A0A0A;
+    --extreme-black:#000000;
+    --extreme-black-half:#0000008f;
+    --white:#FAFAFA;
+    --grey:#323232;
+    --grey-half:#3b3b3b;
+    --font-Roboto:'Roboto', sans-serif;
+}
+
+
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    font-family: var(--font-Roboto);
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+main{
+    margin-top: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+table{
+    margin: 0 auto;
+    width: 100%;
+    background-color: var(--grey);
+    border-collapse: collapse;
+}
+
+caption{
+    padding: 0.5rem;
+    background-color: var(--extreme-black);
+}
+
+th{
+    font-weight: 900;
+    text-align: left;
+    background-color: var(--extreme-black-half);
+}
+
+
+th,td{
+    padding: 1rem;
+}
+
+
+
+tr:nth-of-type(2n){
+    background: var(--grey-half);
+}
+
+@media(max-width:575px){
+    th{
+        display: none;
+    }
+
+    td{
+        display: grid;
+        gap: .5rem;
+        grid-template-columns: 15ch auto;
+        padding: 0.5rem 1rem;
+    }
+
+    td:first-child{
+        padding-top: 1.5rem;
+    }
+
+    td:last-child{
+        padding-bottom: 1.5rem;
+    }
+    
+
+    td::before{
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+    td:nth-of-type(1):before {
+        content: "Name";
+    }
+    
+    td:nth-of-type(2):before {
+        content: "Nationality";
+    }
+    
+    td:nth-of-type(3):before {
+        content: "Favorite Album";
+    }
+    
+    td:nth-of-type(4):before {
+        content: "Favorite Song";
+    }
+
+    td:nth-of-type(5):before {
+        content: "Genre";
+    }
+}
+
+
