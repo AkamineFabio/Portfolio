@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>TV Show API</title>
+</head>
+<body>
+    <h1 class="title container">TV Show Research</h1>
+    <form id="searchform" class="container">
+        <label for="search">What are you looking for?</label>
+        <input type="text" placeholder="Tv Show Title" id="search" name="query">
+        <button>Search</button>
+    </form>
+
+    <div class="tvshows__container container">
+        <div class="show">
+            <h1 class="show__title">Supernatural</h1>
+            <ul class="show__list flex">
+                <li class="show__item">
+                    <img src="teste.jpg" alt="supernatural image">
+                    <h2>Super 1</h2>
+                    <p>Nota</p>
+                </li>
+                <li class="show__item">
+                    <img src="teste.jpg" alt="supernatural image">
+                    <h2>Super 1</h2>
+                    <p>Nota</p>
+                </li>
+                <li class="show__item">
+                    <img src="teste.jpg" alt="supernatural image">
+                    <h2>Super 1</h2>
+                    <p>Nota</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
